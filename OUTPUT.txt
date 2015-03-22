@@ -1,0 +1,66 @@
+2015-03-03 17:14:00 INFO  TestContextManager:242 - Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+2015-03-03 17:14:00 INFO  TestContextManager:242 - Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+2015-03-03 17:14:00 INFO  ClassPathXmlApplicationContext:513 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1c5dd582: startup date [Tue Mar 03 17:14:00 PST 2015]; root of context hierarchy
+2015-03-03 17:14:00 INFO  XmlBeanDefinitionReader:316 - Loading XML bean definitions from class path resource [beans.xml]
+2015-03-03 17:14:01 INFO  XmlBeanDefinitionReader:316 - Loading XML bean definitions from class path resource [beans.xml]
+2015-03-03 17:14:01 INFO  GenericApplicationContext:513 - Refreshing org.springframework.context.support.GenericApplicationContext@799e11a1: startup date [Tue Mar 03 17:14:01 PST 2015]; root of context hierarchy
+2015-03-03 17:14:01 INFO  FileServiceTest:38 - <--------------Test A----------------->
+2015-03-03 17:14:01 INFO  FileSharingAccessControl:118 - Bob cannot read the file .//src//main//resources//home//Alice//shared//alice1.txt
+2015-03-03 17:14:01 INFO  ClassPathXmlApplicationContext:513 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@302a0a5: startup date [Tue Mar 03 17:14:01 PST 2015]; root of context hierarchy
+2015-03-03 17:14:01 INFO  XmlBeanDefinitionReader:316 - Loading XML bean definitions from class path resource [beans.xml]
+2015-03-03 17:14:01 INFO  FileServiceTest:52 - <--------------Test B----------------->
+2015-03-03 17:14:01 INFO  FileSharingAccessControl:30 - Alice shares the file .//src//main//resources//home//Alice//shared//alice1.txt with Bob
+2015-03-03 17:14:01 INFO  FileSharingAccessControl:113 - Bob reads the file .//src//main//resources//home//Alice//shared//alice1.txt
+2015-03-03 17:14:01 INFO  ClassPathXmlApplicationContext:513 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4876db09: startup date [Tue Mar 03 17:14:01 PST 2015]; root of context hierarchy
+2015-03-03 17:14:01 INFO  XmlBeanDefinitionReader:316 - Loading XML bean definitions from class path resource [beans.xml]
+2015-03-03 17:14:01 INFO  FileServiceTest:66 - <--------------Test C----------------->
+2015-03-03 17:14:01 INFO  FileSharingAccessControl:30 - Alice shares the file .//src//main//resources//home//Alice//shared//alice1.txt with Bob
+2015-03-03 17:14:01 INFO  FileSharingAccessControl:113 - Bob reads the file .//src//main//resources//home//Alice//shared//alice1.txt
+2015-03-03 17:14:01 INFO  FileSharingAccessControl:35 - Bob shares the file .//src//main//resources//home//Alice//shared//alice1.txt with Carl
+2015-03-03 17:14:01 INFO  FileSharingAccessControl:113 - Carl reads the file .//src//main//resources//home//Alice//shared//alice1.txt
+2015-03-03 17:14:01 INFO  ClassPathXmlApplicationContext:513 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@600dac21: startup date [Tue Mar 03 17:14:01 PST 2015]; root of context hierarchy
+2015-03-03 17:14:01 INFO  XmlBeanDefinitionReader:316 - Loading XML bean definitions from class path resource [beans.xml]
+2015-03-03 17:14:01 INFO  FileServiceTest:85 - <--------------Test D----------------->
+2015-03-03 17:14:01 INFO  FileSharingAccessControl:30 - Alice shares the file .//src//main//resources//home//Alice//shared//alice1.txt with Bob
+2015-03-03 17:14:01 INFO  FileSharingAccessControl:39 - Bob cannot share the file .//src//main//resources//home//Carl//shared//carl1.txt with Alice
+2015-03-03 17:14:01 INFO  ClassPathXmlApplicationContext:513 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@62fa5ff3: startup date [Tue Mar 03 17:14:01 PST 2015]; root of context hierarchy
+2015-03-03 17:14:01 INFO  XmlBeanDefinitionReader:316 - Loading XML bean definitions from class path resource [beans.xml]
+2015-03-03 17:14:01 INFO  FileServiceTest:102 - <-------------- Test E ----------------->
+2015-03-03 17:14:01 INFO  FileSharingAccessControl:30 - Alice shares the file .//src//main//resources//home//Alice//shared//alice1.txt with Bob
+2015-03-03 17:14:01 INFO  FileSharingAccessControl:35 - Bob shares the file .//src//main//resources//home//Alice//shared//alice1.txt with Carl
+2015-03-03 17:14:01 INFO  FileSharingAccessControl:69 - Alice unshares the file .//src//main//resources//home//Alice//shared//alice1.txt with Carl
+2015-03-03 17:14:01 INFO  FileSharingAccessControl:78 - Alice unshares the file .//src//main//resources//home//Alice//shared//alice1.txt with Bob
+2015-03-03 17:14:01 INFO  FileSharingAccessControl:118 - Carl cannot read the file .//src//main//resources//home//Alice//shared//alice1.txt
+2015-03-03 17:14:01 INFO  ClassPathXmlApplicationContext:513 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@54a9387: startup date [Tue Mar 03 17:14:01 PST 2015]; root of context hierarchy
+2015-03-03 17:14:01 INFO  XmlBeanDefinitionReader:316 - Loading XML bean definitions from class path resource [beans.xml]
+2015-03-03 17:14:01 INFO  FileServiceTest:121 - <--------------Test F ----------------->
+2015-03-03 17:14:01 INFO  FileSharingAccessControl:30 - Alice shares the file .//src//main//resources//home//Alice//shared//alice1.txt with Bob
+2015-03-03 17:14:01 INFO  FileSharingAccessControl:30 - Alice shares the file .//src//main//resources//home//Alice//shared//alice1.txt with Carl
+2015-03-03 17:14:01 INFO  FileSharingAccessControl:35 - Carl shares the file .//src//main//resources//home//Alice//shared//alice1.txt with Bob
+2015-03-03 17:14:01 INFO  FileSharingAccessControl:69 - Alice unshares the file .//src//main//resources//home//Alice//shared//alice1.txt with Bob
+2015-03-03 17:14:01 INFO  FileSharingAccessControl:78 - Alice unshares the file .//src//main//resources//home//Alice//shared//alice1.txt with Carl
+2015-03-03 17:14:01 INFO  FileSharingAccessControl:118 - Bob cannot read the file .//src//main//resources//home//Alice//shared//alice1.txt
+2015-03-03 17:14:01 INFO  ClassPathXmlApplicationContext:513 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3ddfd90f: startup date [Tue Mar 03 17:14:01 PST 2015]; root of context hierarchy
+2015-03-03 17:14:01 INFO  XmlBeanDefinitionReader:316 - Loading XML bean definitions from class path resource [beans.xml]
+2015-03-03 17:14:01 INFO  FileServiceTest:141 - <--------------Test G ----------------->
+2015-03-03 17:14:01 INFO  FileSharingAccessControl:30 - Alice shares the file .//src//main//resources//home//Alice//shared//alice1.txt with Bob
+2015-03-03 17:14:01 INFO  FileSharingAccessControl:35 - Bob shares the file .//src//main//resources//home//Alice//shared//alice1.txt with Carl
+2015-03-03 17:14:01 INFO  FileSharingAccessControl:69 - Alice unshares the file .//src//main//resources//home//Alice//shared//alice1.txt with Bob
+2015-03-03 17:14:01 INFO  FileSharingAccessControl:78 - Alice unshares the file .//src//main//resources//home//Alice//shared//alice1.txt with Carl
+2015-03-03 17:14:01 INFO  FileSharingAccessControl:39 - Bob cannot share the file .//src//main//resources//home//Alice//shared//alice1.txt with Carl
+2015-03-03 17:14:01 INFO  ClassPathXmlApplicationContext:513 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4c309f9f: startup date [Tue Mar 03 17:14:01 PST 2015]; root of context hierarchy
+2015-03-03 17:14:01 INFO  XmlBeanDefinitionReader:316 - Loading XML bean definitions from class path resource [beans.xml]
+2015-03-03 17:14:01 INFO  FileServiceTest:160 - <--------------Test H ----------------->
+2015-03-03 17:14:01 INFO  FileSharingAccessControl:30 - Alice shares the file .//src//main//resources//home//Alice//shared//file1.txt with Bob
+2015-03-03 17:14:01 INFO  FileSharingAccessControl:118 - Bob cannot read the file .//src//main//resources//home//Alice//shared//file2.txt
+2015-03-03 17:14:02 INFO  ClassPathXmlApplicationContext:513 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@8dc1f04: startup date [Tue Mar 03 17:14:02 PST 2015]; root of context hierarchy
+2015-03-03 17:14:02 INFO  XmlBeanDefinitionReader:316 - Loading XML bean definitions from class path resource [beans.xml]
+2015-03-03 17:14:02 INFO  FileServiceTest:177 - testA:Pass
+2015-03-03 17:14:02 INFO  FileServiceTest:178 - testB:Pass
+2015-03-03 17:14:02 INFO  FileServiceTest:179 - testC:Pass
+2015-03-03 17:14:02 INFO  FileServiceTest:180 - testD:Pass
+2015-03-03 17:14:02 INFO  FileServiceTest:181 - testE:Pass
+2015-03-03 17:14:02 INFO  FileServiceTest:182 - testF:Pass
+2015-03-03 17:14:02 INFO  FileServiceTest:183 - testG:Pass
+2015-03-03 17:14:02 INFO  FileServiceTest:184 - testH:Pass
+2015-03-03 17:14:02 INFO  GenericApplicationContext:873 - Closing org.springframework.context.support.GenericApplicationContext@799e11a1: startup date [Tue Mar 03 17:14:01 PST 2015]; root of context hierarchy
